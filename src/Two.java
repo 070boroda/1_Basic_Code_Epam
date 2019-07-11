@@ -4,7 +4,7 @@ public class Two {
 
     public static void main(String[] args) {
 
-        double a,b,c;
+        double a,
         double result;
 
         Scanner in = new Scanner(System.in);
