@@ -1,3 +1,5 @@
+package by.epam.zelenko.lineprogram;
+
 import java.util.Scanner;
 
 public class Four {

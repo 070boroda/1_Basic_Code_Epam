@@ -1,6 +1,9 @@
+package by.epam.zelenko.lineprogram;
+
 import java.util.Scanner;
 
-public class One {
+public class Two {
+
     public static void main(String[] args) {
 
         double a,b,c;
@@ -14,7 +17,7 @@ public class One {
         System.out.println("Ведите c ");
         c = in.nextDouble();
         System.out.println("Вы вели a=" + a +"\nВы вели b="+ b +"\nВы вели c=" + c);
-        result = ((a-3)*b/2)+c;
-        System.out.println("Ответ ((a-3)*b/2)+c=" + result );
+        result = ((b+(Math.sqrt(Math.pow(b,2)+4*a*c))/2*a))-Math.pow(a,3)*c+Math.pow(b,-2);
+        System.out.println("Ответ " + result );
     }
 }
